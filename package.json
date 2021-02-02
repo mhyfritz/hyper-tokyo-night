@@ -25,5 +25,13 @@
     "nunjucks": "^3.2.2",
     "pinst": "^2.1.4",
     "prettier": "2.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhyfritz/hyper-tokyo-night.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhyfritz/hyper-tokyo-night/issues"
+  },
+  "homepage": "https://github.com/mhyfritz/hyper-tokyo-night#readme"
 }
