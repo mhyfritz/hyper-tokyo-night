@@ -15,3 +15,8 @@ $ hyper install hyper-tokyo-night
 ```
 
 Alternatively, open `~/.hyper.js` and add `"hyper-tokyo-night"` to the `plugins` array.
+
+## Credits
+
+- [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme) (d'oh)
+- [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) (tab styling)
