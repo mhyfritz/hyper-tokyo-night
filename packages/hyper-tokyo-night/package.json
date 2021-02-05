@@ -1,0 +1,25 @@
+{
+  "name": "hyper-tokyo-night",
+  "version": "1.0.6",
+  "description": "Clean, dark Hyper theme based on the Tokyo Night VS Code theme",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper-theme"
+  ],
+  "author": {
+    "name": "Markus Hsi-Yang Fritz",
+    "email": "markus.h.y.fritz@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhyfritz/hyper-tokyo-night.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhyfritz/hyper-tokyo-night/issues"
+  },
+  "homepage": "https://github.com/mhyfritz/hyper-tokyo-night#readme"
+}

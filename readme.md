@@ -5,16 +5,31 @@
 
 > Clean, dark [Hyper](https://hyper.is/) theme based on the [Tokyo Night VS Code theme](https://github.com/enkia/tokyo-night-vscode-theme)
 
-![](palette.png)
-![](screenshot.jpg)
+## Tokyo Night
 
-## Install
+![](packages/hyper-tokyo-night/palette.png)
+![](packages/hyper-tokyo-night/screenshot.png)
+
+### Install
 
 ```
 $ hyper install hyper-tokyo-night
 ```
 
 Alternatively, open `~/.hyper.js` and add `"hyper-tokyo-night"` to the `plugins` array.
+
+## Tokyo Night Storm
+
+![](packages/hyper-tokyo-night-storm/palette.png)
+![](packages/hyper-tokyo-night-storm/screenshot.png)
+
+### Install
+
+```
+$ hyper install hyper-tokyo-night-storm
+```
+
+Alternatively, open `~/.hyper.js` and add `"hyper-tokyo-night-storm"` to the `plugins` array.
 
 ## Credits
 

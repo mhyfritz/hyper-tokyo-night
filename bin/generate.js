@@ -1,18 +1,20 @@
 const fs = require("fs/promises");
 const path = require("path");
 
+const { program } = require("commander");
 const JSON5 = require("json5");
 const nunjucks = require("nunjucks");
 const prettier = require("prettier");
 
-const themePath = path.join(
-  __dirname,
-  "../tokyo-night-vscode-theme/themes/tokyo-night-color-theme.json"
-);
+program
+  .arguments("<file>")
+  .description("Generate Hyper theme", {
+    file: "VS Code theme file",
+  })
+  .action(main)
+  .parse();
 
-main();
-
-async function main() {
+async function main(themePath) {
   const themeRaw = await fs.readFile(themePath, "utf8");
   const theme = JSON5.parse(themeRaw);
 

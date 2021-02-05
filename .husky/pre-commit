@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-node src/generate.js > index.js
-git add index.js
+node bin/generate.js tokyo-night-vscode-theme/themes/tokyo-night-color-theme.json > packages/hyper-tokyo-night/index.js
+node bin/generate.js tokyo-night-vscode-theme/themes/tokyo-night-storm-color-theme.json > packages/hyper-tokyo-night-storm/index.js
