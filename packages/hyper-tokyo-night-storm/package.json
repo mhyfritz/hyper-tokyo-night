@@ -1,6 +1,6 @@
 {
   "name": "hyper-tokyo-night-storm",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clean, dark Hyper theme based on the Tokyo Night Storm VS Code theme",
   "files": [
     "index.js"
