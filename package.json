@@ -6,7 +6,6 @@
     "commander": "^5.1.0",
     "json5": "^2.2.0",
     "nunjucks": "^3.2.2",
-    "pinst": "^2.1.4",
     "prettier": "^2.2.1"
   }
 }
